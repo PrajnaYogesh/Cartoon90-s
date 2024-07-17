@@ -1,0 +1,147 @@
+/* Desktop  */
+
+@media (max-width: 2280px) {
+  #popeye #popeye-img,
+  #about-p {
+    display: inline;
+  }
+  #tom,
+  #tom-img,
+  #about-t,
+  #about-s,
+  #scooby,
+  #scooby-img {
+    display: none;
+  }
+
+  .top-container {
+    padding: 5px;
+    /* border:1px solid rgb(91, 95, 130); */
+    /* box-shadow: rgba(173, 171, 171, 0.25) 0px 54px 55px, rgba(204, 198, 198, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    box-shadow: 1px 1px 17px -1px rgba(250, 250, 250, 0.64);
+  }
+  .title {
+    color: rgb(227, 97, 97);
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  #about-p {
+    color: rgb(235, 143, 143);
+    font-size: 1.25em;
+    font-style: italic;
+  }
+}
+
+/* Mid  */
+
+@media (max-width: 1080px) {
+  #tom,
+  #tom-img,
+  #about-t {
+    display: inline;
+  }
+  #scooby,
+  #scooby-img,
+  #about-p,
+  #about-s,
+  #popeye,
+  #popeye-img {
+    display: none;
+  }
+
+  .top-container {
+    /* border: 1px solid rgba(72, 72, 70, 0.758);
+    box-shadow: rgba(173, 171, 171, 0.25) 0px 54px 55px, rgba(204, 198, 198, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   */
+    padding: 5px;
+    box-shadow: 1px 1px 17px -1px rgba(250, 250, 250, 0.64);
+  }
+  .title {
+    color: rgb(141, 198, 233);
+  }
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  #about-t {
+    color: rgb(146, 194, 194);
+    font-size: 1.25em;
+    font-style: italic;
+  }
+}
+
+/* Mobile  */
+
+@media (max-width: 780px) {
+  #scooby,
+  #scooby-img,
+  #about-s {
+    display: inline;
+  }
+  #tom,
+  #tom-img,
+  #about-t,
+  #about-p,
+  #popeye,
+  #popeye-img {
+    display: none;
+  }
+
+  .top-container {
+    /* border:1px solid rgb(71, 56, 31);
+    box-shadow: rgba(173, 171, 171, 0.25) 0px 54px 55px, rgba(204, 198, 198, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    padding: 5px;
+    box-shadow: 1px 1px 17px -1px rgba(250, 250, 250, 0.64);
+  }
+  .title {
+    color: rgb(225, 214, 85);
+  }
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  #about-s {
+    color: rgb(227, 222, 159);
+    font-size: 1.25em;
+    font-style: italic;
+  }
+}
+
+/* -------General------ */
+body {
+  background-color: black;
+  /* background-image: url(https://c02.purpledshub.com/uploads/sites/48/2019/02/HyadesY16JanD07-2dc9bb4.jpg?webp=1&w=1200); */
+  background-image: url(https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.container {
+  /* border: 1px solid white; */
+}
+.top-container {
+  margin: 1em;
+  text-align: center;
+}
+
+.mid-container {
+  /* border: 1px solid bisque; */
+  margin: 1em;
+  height: 300px;
+}
+
+.bottom-container {
+  /* border: 1px solid wheat;
+   */
+  box-shadow: 1px 1px 17px -1px rgba(222, 218, 218, 0.64);
+  height: 25vh;
+  margin: 1em;
+  padding: 10px;
+  text-align: left;
+}
